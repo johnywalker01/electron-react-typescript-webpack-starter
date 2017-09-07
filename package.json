@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-	"build": "webpack",
+    "build": "webpack",
     "start": "electron ."
   },
   "repository": "https://github.com/johnywalker01/electron-react-typescript-webpack-starter",
