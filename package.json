@@ -1,8 +1,10 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "electron-react-typescript-webpack-quick-start",
+  "version": "0.1.0",
+  "description": "A minimal Electron application Using React in Typescript and Webpack",
   "main": "main.js",
+  "author": "GitHub",
+  "license": "CC0-1.0",
   "scripts": {
     "build": "webpack",
     "start": "electron ."
@@ -15,8 +17,6 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
   "devDependencies": {
     "@types/aphrodite": "^0.5.6",
     "@types/react": "^16.0.5",
