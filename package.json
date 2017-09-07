@@ -1,0 +1,42 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+	"build": "webpack",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/johnywalker01/electron-react-typescript-webpack-starter",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/aphrodite": "^0.5.6",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.5.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "aphrodite": "^1.2.3",
+    "axios": "^0.16.2",
+    "electron": "~1.6.2",
+    "lodash": "^4.17.4",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
+  }
+}
